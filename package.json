@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0",
+    "vuepress-theme-reco": "^1.6.1",
+    "watchpack": "^2.1.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC"
+}
